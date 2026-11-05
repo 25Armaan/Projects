@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#namee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Aboutme > div {
+    flex: 1;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 15px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+.linkss{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
